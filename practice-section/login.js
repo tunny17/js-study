@@ -1,4 +1,4 @@
-import { getTotalStudents, setStudents } from './main.js';
+import { getTotalStudents, setStudents } from '../practice-section/main.js';
 
 const isStudent = true;
 

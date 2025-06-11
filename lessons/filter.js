@@ -21,5 +21,5 @@ const people = [
   { name: 'Bob', age: 22 },
   { name: 'Charlie', age: 16 }
 ];
-const adults = people.reject((person) => person.age >= 18);
+const adults = people.filter((person) => person.age >= 18);
 console.log(adults);
