@@ -65,8 +65,8 @@
 
 // simple setter & getter function:
 let x = 5;
-const getX = () => x;
-const setX = (val) => {
+export const getX = () => x;
+export const setX = (val) => {
   x = val;
   return x;
 };
